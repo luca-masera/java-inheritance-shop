@@ -25,4 +25,11 @@ public class Cuffie extends Prodotto {
     public void setWireless(boolean wireless) {
         this.wireless = wireless;
     }
+    @Override
+    public String getDettagliProdottoFormattati() {
+        String tipo = "Cuffie";
+        return String.format("Tipo di Prodotto: %s\n", tipo) +
+                super.getDettagliProdottoFormattati() +
+                String.format("\nColore: %s\nTipo di connessione wireless: %s", colore, wireless);
+}
 }

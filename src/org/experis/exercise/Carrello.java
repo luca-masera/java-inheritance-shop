@@ -35,6 +35,7 @@ public class Carrello {
                 System.out.println("Inserisci la quantità di memoria che preferisci:");
                 int memoria = Integer.parseInt(scan.nextLine());
                 carrello.add(new Smartphone(codice, nome, marca, prezzo, iva, imei, memoria));
+
             } else if (tipo.equals("Televisore")){
                 System.out.println("Di che dimensioni vuoi il televisore?");
                 String dimensioni = scan.nextLine();
@@ -51,6 +52,7 @@ public class Carrello {
             System.out.println("Carrello:");
             for (Prodotto prodotto : carrello){
                 System.out.println(prodotto.getDettagliProdottoFormattati());
+
             }
 
         }
