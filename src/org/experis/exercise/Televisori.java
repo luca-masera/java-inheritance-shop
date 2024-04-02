@@ -8,6 +8,7 @@ public class Televisori extends Prodotto {
         super(codice, nome, marca, prezzo, iva);
         this.dimensioni = dimensioni;
         this.smart = smart;
+        System.out.println(dimensioni);
     }
 
     public String getDimensioni() {
