@@ -30,5 +30,11 @@ public class Smartphone extends Prodotto {
     public void setMemoria(int memoria) {
         this.memoria = memoria;
     }
-
+    @Override
+    public String getDettagliProdottoFormattati() {
+        String tipo = "Smartphone";
+        return String.format("Tipo di Prodotto: %s\n", tipo) +
+                super.getDettagliProdottoFormattati() +
+                String.format("\nimei: %s\nTipo di memoria: %s", imei, memoria);
+    }
 }

@@ -26,4 +26,11 @@ public class Televisori extends Prodotto {
     public void setSmart(boolean smart) {
         this.smart = smart;
     }
+    @Override
+    public String getDettagliProdottoFormattati() {
+        String tipo = "Televisori";
+        return String.format("Tipo di Prodotto: %s\n", tipo) +
+                super.getDettagliProdottoFormattati() +
+                String.format("\nColore: %s\nTipo di connessione wireless: %s", dimensioni, smart);
+    }
 }

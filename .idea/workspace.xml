@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006089e-a1ac-4780-b57d-bba86fae9b8d" name="Changes" comment="README.md">
+    <list default="true" id="5006089e-a1ac-4780-b57d-bba86fae9b8d" name="Changes" comment="fix carrello">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/experis/exercise/Carrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/exercise/Carrello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/experis/exercise/Cuffie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/exercise/Cuffie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/experis/exercise/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/exercise/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/exercise/Televisori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/exercise/Televisori.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eXtkwaH0t8a9N7jM0MItV1WL0r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,15 +38,15 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Carrello.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Carrello.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Carrello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.experis.exercise.Carrello" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712071037519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix carrello">
+      <option name="closed" value="true" />
+      <created>1712073466752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712073466752</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +131,7 @@
     <MESSAGE value="Classi Televisori, Smartphone and Cuffie extends Prodotto" />
     <MESSAGE value="Carrello class" />
     <MESSAGE value="README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <MESSAGE value="fix carrello" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix carrello" />
   </component>
 </project>

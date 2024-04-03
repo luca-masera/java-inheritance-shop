@@ -10,7 +10,7 @@ public class Carrello {
 
             Scanner scan = new Scanner(System.in);
 
-            System.out.println("Che tipo di prodotto preferisce? Smartphone, Televisore o Cuffie?");
+            System.out.println("Che tipo di prodotto preferisce? Smartphone, Televisori o Cuffie?");
             String tipo = scan.nextLine();
 
             System.out.println("Inserisci il codice: ");
@@ -36,7 +36,7 @@ public class Carrello {
                 int memoria = Integer.parseInt(scan.nextLine());
                 carrello.add(new Smartphone(codice, nome, marca, prezzo, iva, imei, memoria));
 
-            } else if (tipo.equals("Televisore")){
+            } else if (tipo.equals("Televisori")){
                 System.out.println("Di che dimensioni vuoi il televisore?");
                 String dimensioni = scan.nextLine();
                 System.out.println("Lo vuoi smart oppure no?:");
